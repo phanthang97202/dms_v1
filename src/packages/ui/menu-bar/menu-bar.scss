@@ -1,0 +1,26 @@
+@import "../../../themes/generated/variables.base";
+
+.menu-bar-container {
+  color: $base-bg;
+
+  .dx-item-content {
+    background-color: $base-accent;
+  }
+
+  .dx-tab {
+    background-color: $base-accent;
+    color: $base-bg;
+
+    &.dx-item {
+      width: 100px;
+      .dx-tab-text {
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+    }
+  }
+
+  .dx-tab-selected {
+    border-bottom: solid 2px $base-bg;
+  }
+}

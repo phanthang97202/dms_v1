@@ -1,0 +1,27 @@
+.base-gridview {
+  #gridContainer {
+    .dx-popup-content {
+      padding: 4px;
+    }
+  }
+  .dx-datagrid-header-panel {
+    .dx-toolbar {
+      .dx-toolbar-after {
+        .dx-toolbar-item {
+          &:nth-last-child(2) {
+            margin-right: 60px;
+            .dx-toolbar-item-content {
+            }
+          }
+          &:last-child {
+            width: 60px;
+            .dx-toolbar-item-content {
+              display: flex;
+              justify-content: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
